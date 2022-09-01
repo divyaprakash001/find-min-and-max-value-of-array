@@ -7,9 +7,9 @@ public class finding_minimum_maximum_value_in_array_using_methods_in_java {
         int min = arr[0];
         for(int element : arr)   // using for each loop // you can use for loop also
         {
-            if(min>element)
+            if(min>element)     // when element is smaller that min, assign min as that element
             {
-                min = element;
+                min = element;      // assigning new min value 
             }
         }
         System.out.println( "The minimum value in this array is "+min);
